@@ -28,6 +28,7 @@ The fork is designed for native Codex skill discovery. Each directory under
 - `observability-and-instrumentation`
 - `performance-optimization`
 - `project-constraints`
+- `repository-security-baseline`
 - `security-and-hardening`
 - `shipping-and-launch`
 - `source-driven-development`

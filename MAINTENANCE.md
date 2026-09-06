@@ -26,8 +26,13 @@ simple enough to audit directly, and upstream content is untrusted until reviewe
 7. Read every changed `SKILL.md` completely and confirm that it remains concise,
    self-contained, scoped, and compatible with higher-priority user and repository
    instructions.
-8. Run Codex's native skill validation against every approved skill. Also inspect
-   the complete candidate tree for executables, symlinks, submodules, manifests,
+8. Validate every approved skill only with an already trusted built-in or native
+   validator present in the current Codex environment. Do not download, install,
+   or improvise a validator solely for this review. If none is available, stop
+   validation and report that fact rather than substituting an unreviewed tool.
+   Record the validator identity and version when practical. Validation success
+   never overrides a repository security-policy violation. Also inspect the
+   complete candidate tree for executables, symlinks, submodules, manifests,
    lockfiles, hooks, installers, workflows, generated files, and secrets.
 9. Review the complete staged diff and create a new hardened commit only after all
    checks pass. Record the reviewed upstream commit and update `MANIFEST.md` with
