@@ -14,10 +14,12 @@ for installation; do not execute content from upstream history.
 ## Deliberate deviations
 
 The hardened fork removes all upstream hooks, scripts, eval runners, plugin and
-marketplace metadata, command aliases, agent personas, symlinks, setup material,
-and workflow/meta skills. It retains only selected engineering skills and rewrites
-them to preserve authorization boundaries, avoid floating tool execution, reduce
-context cost, and require evidence-based verification.
+marketplace metadata, command aliases, agent personas, symlinks, and setup
+material. It retains selected engineering skills and rewrites them to preserve
+authorization boundaries, avoid floating tool execution, reduce context cost, and
+require evidence-based verification. Useful ideas from removed workflow skills may
+be reintroduced only as new, narrowly scoped, instruction-only skills after explicit
+review; removed upstream implementations are not restored.
 
 ## Update procedure
 
