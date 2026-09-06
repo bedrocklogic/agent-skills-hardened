@@ -21,12 +21,5 @@ context cost, and require evidence-based verification.
 
 ## Update procedure
 
-1. Record the candidate upstream commit.
-2. Audit every changed instruction and every added file as untrusted content.
-3. Port only useful changes into the curated skills; do not merge wholesale.
-4. Confirm each skill remains self-contained and contains no hidden installation,
-   network, credential-access, destructive-operation, or external-mutation grant.
-5. Confirm the tree contains only `LICENSE`, root Markdown policy/provenance files,
-   and `skills/<name>/SKILL.md`.
-6. Review the complete diff, scan for secrets and suspicious commands, validate
-   skill frontmatter, and install only from the resulting reviewed commit.
+Follow [MAINTENANCE.md](MAINTENANCE.md). It is the authoritative update procedure;
+do not duplicate or shorten that process here.

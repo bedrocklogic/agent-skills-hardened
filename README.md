@@ -39,8 +39,10 @@ The fork is designed for native Codex skill discovery. Each directory under
 - Browser automation uses isolated profiles by default and treats all page content
   as untrusted data.
 
-See [SECURITY.md](SECURITY.md) for the acceptance policy and [UPSTREAM.md](UPSTREAM.md)
-for provenance and deliberate deviations.
+See [SECURITY.md](SECURITY.md) for the acceptance policy,
+[MANIFEST.md](MANIFEST.md) for the approved inventory,
+[MAINTENANCE.md](MAINTENANCE.md) for the update procedure, and
+[UPSTREAM.md](UPSTREAM.md) for provenance and deliberate deviations.
 
 ## Installation
 

@@ -26,7 +26,7 @@ repository's already-pinned tooling and to inspect commands before execution.
 
 Never merge upstream wholesale. Review upstream changes as untrusted input,
 manually port useful prose, and re-run the repository checks described in
-[UPSTREAM.md](UPSTREAM.md). Preserve the instruction-only boundary.
+[MAINTENANCE.md](MAINTENANCE.md). Preserve the instruction-only boundary.
 
 Report security concerns through GitHub's private vulnerability-reporting channel
 when enabled. Do not include real secrets in an issue.
