@@ -24,6 +24,7 @@ baseline.
 | `observability-and-instrumentation` | Design or review privacy-safe logs, metrics, traces, correlation, and alerts. | approved | `201bd1b633d8a3249e1aa9d6422a956160d4c571` |
 | `performance-optimization` | Diagnose and improve measured bottlenecks without weakening correctness or security. | approved | `201bd1b633d8a3249e1aa9d6422a956160d4c571` |
 | `project-constraints` | Identify and preserve existing project invariants, quality gates, and acceptance criteria. | approved | `b6353fbd24fdd4b60ccbd5703f99f3d7304ac80e` |
+| `repository-security-baseline` | Audit repository structure, provenance, imported content, and hardened-policy compliance without executing untrusted material. | approved | `abd6583cdd6f81390288ae87008180e85ea18398` |
 | `security-and-hardening` | Threat-model, review, and harden trust, authorization, secret, input, and supply-chain boundaries. | approved | `201bd1b633d8a3249e1aa9d6422a956160d4c571` |
 | `shipping-and-launch` | Prepare, review, or execute explicitly authorized releases with provenance and recovery controls. | approved | `201bd1b633d8a3249e1aa9d6422a956160d4c571` |
 | `source-driven-development` | Resolve changing or uncertain technical behavior using authoritative primary sources. | approved | `201bd1b633d8a3249e1aa9d6422a956160d4c571` |
